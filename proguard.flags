@@ -20,6 +20,23 @@
     *** get*();
 }
 
+-keep class com.android.settings.*Fragment
+-keep class com.android.settings.*Picker
+-keep class com.android.settings.*Settings
+-keep class com.android.settings.wifi.*Settings
+-keep class com.android.settings.deviceinfo.*
+-keep class com.android.settings.bluetooth.*
+-keep class com.android.settings.applications.*
+-keep class com.android.settings.inputmethod.*
+-keep class com.android.settings.MasterClear
+-keep class com.android.settings.MasterClearConfirm
+-keep class com.android.settings.accounts.*
+-keep class com.android.settings.fuelgauge.*
+-keep class com.android.settings.users.*
+-keep class com.android.settings.nfc.*
+-keep class com.android.settings.notification.*
+-keep class com.android.settings.preference.*
+
 # Keep classes that may be inflated from XML.
 -keepclasseswithmembers class * {
     public <init>(android.content.Context, android.util.AttributeSet);
