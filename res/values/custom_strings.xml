@@ -115,6 +115,21 @@
     <string name="action_in_app_search">In-app search</string>
     <string name="action_launch_camera">Open camera</string>
     <string name="action_last_app">Launch last app</string>
+    <string name="button_settings_title">Button Settings</string>
+    <string name="button_settings_summary">Hardware and software keys</string>
+    <!-- Buttons backlight -->
+    <string name="button_brightness_title">Backlight</string>
+    <string name="backlight_timeout_title">Buttons backlight timeout</string>
+    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_3s">3 sec</string>
+    <string name="backlight_timeout_default">5 sec (default)</string>
+    <string name="backlight_timeout_10s">10 sec</string>
+    <string name="backlight_timeout_15s">15 sec</string>
+    <string name="backlight_timeout_20s">20 sec</string>
+    <string name="backlight_timeout_30s">30 sec</string>
+
+    <!-- Unlink ring & notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
 
 </resources>
 
