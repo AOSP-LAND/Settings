@@ -99,7 +99,7 @@
         android:order="-98"/>
 
     <!-- Incall vibrate options -->
-    <PreferenceScreen
+    <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
 
@@ -117,7 +117,7 @@
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />
-    </PreferenceScreen>
+    </PreferenceCategory>
 
     <!-- Other sounds -->
     <PreferenceCategory
