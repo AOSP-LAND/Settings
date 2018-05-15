@@ -81,8 +81,9 @@
     <string name="screenshot_sound_title">Screenshot sound</string>
 
     <!--Volume keys -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_key_title">Volume button</string>
+    <string name="volume_rocker_wake_title">Wake device</string>
+    <string name="volume_rocker_wake_summary">When pressing one of the volume keys</string>
 
 </resources>
 
